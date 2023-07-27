@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WebRTC demo</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="card">
+    <h1>Video Chat</h1>
+    <div class="videos">
+      <video id="webcamVideo" autoplay playsinline></video>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+    <div>
+      <button id="webcamButton">Start webcam</button>
+      <button id="callButton">Call</button>
+      <h2>Join a call</h2> <input id="callInput" placeholder="Paste call ID">
+      <button id="answerButton">Answer</button>
+      <button id="hangupButton">Hangup</button>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
